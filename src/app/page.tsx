@@ -101,7 +101,7 @@ export default function Page() {
         ))}
       </div>
       {filteredUsers.length >= 12 && (
-        <div>
+        <div className="box-pagination">
           {currentPage >= 1 && (
             <Button onClick={() => handlePageChange(currentPage - 1)}>
               Previous

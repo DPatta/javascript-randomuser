@@ -104,6 +104,10 @@ body {
   font-family: "Mitr", sans-serif;
   font-size: 14px;
 }
+.block-use-list .user-item:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
 
 .modal-detail-user .view-box {
   display: flex;
@@ -181,4 +185,19 @@ body {
 }
 .modal-content .close-box .close:hover::before {
   width: 100%;
+}
+
+.box-pagination {
+  display: flex;
+  justify-content: end;
+}
+.box-pagination .btn.btn-primary {
+  margin: 0 5px;
+  background-color: #212529 !important;
+  border-color: white;
+}
+.box-pagination .btn.btn-primary:hover {
+  background-color: white !important;
+  color: #212529;
+  transition: 0.3s;
 }

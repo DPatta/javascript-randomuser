@@ -96,6 +96,12 @@ body {
         }
       }
     }
+    &:hover{
+        transform: scale(1.02);
+    transition: .3s;
+
+
+    }
   }
 }
 //=============== Main Page ===============//
@@ -183,4 +189,19 @@ body {
       }
     }
   }
+}
+
+.box-pagination {
+    display: flex;
+    justify-content: end;
+    .btn.btn-primary {
+        margin: 0 5px;
+        background-color: $st-color !important;
+        border-color: #ffffffff;
+        &:hover{
+            background-color: #ffffffff !important;
+            color: $st-color;
+            transition: .3s;
+        }
+    }
 }
